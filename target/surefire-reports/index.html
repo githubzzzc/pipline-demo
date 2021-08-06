@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-____">
+              <span class="suite-name border-failed">测试套件</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-____">
+                    <span>G:\LIanXi\api_code\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-____">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-____">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-____">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-____">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-____">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-____">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods, 1 failed,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-____" class="hide-methods failed suite-____"> (hide)</a> <!-- hide-methods failed suite-____ -->
+                      <a href="#" panel-name="suite-____" class="show-methods failed suite-____"> (show)</a> <!-- show-methods failed suite-____ -->
+                    </span>
+                    <div class="method-list-content failed suite-____">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=1, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，昵称为空，密码16位&#039;, requestHeader=&#039;{
+ &quot;X-Lemo...)">register(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-____ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-____" class="hide-methods passed suite-____"> (hide)</a> <!-- hide-methods passed suite-____ -->
+                      <a href="#" panel-name="suite-____" class="show-methods passed suite-____"> (show)</a> <!-- show-methods passed suite-____ -->
+                    </span>
+                    <div class="method-list-content passed suite-____">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.InvestFlowTest" hash-for-method="investFlow(CaseInfo{caseId=3, interfaceName=&#039;member_info&#039;, title=&#039;正常获取用户信息&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Medi...)">investFlow(CaseInfo{caseId=3, interfaceName='member_info', title='正常获取用户信息', requestHeader='{
+ "X-Lemonban-Medi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.InvestFlowTest" hash-for-method="investFlow(CaseInfo{caseId=2, interfaceName=&#039;login&#039;, title=&#039;正常登录&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;l...)">investFlow(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.InvestFlowTest" hash-for-method="investFlow(CaseInfo{caseId=1, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，昵称为空，密码16位&#039;, requestHeader=&#039;{
+ &quot;X-Lemo...)">investFlow(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=13, interfaceName=&#039;login&#039;, title=&#039;密码错误-过长&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">login(CaseInfo{caseId=13, interfaceName='login', title='密码错误-过长', requestHeader='{
+ "X-Lemonban-Media-Type...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=12, interfaceName=&#039;login&#039;, title=&#039;密码错误-不区分大小写&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-...)">login(CaseInfo{caseId=12, interfaceName='login', title='密码错误-不区分大小写', requestHeader='{
+ "X-Lemonban-Media-...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=2, interfaceName=&#039;login&#039;, title=&#039;正常登录&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;l...)">login(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=10, interfaceName=&#039;login&#039;, title=&#039;密码为7位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:...)">login(CaseInfo{caseId=10, interfaceName='login', title='密码为7位', requestHeader='{
+ "X-Lemonban-Media-Type":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=5, interfaceName=&#039;login&#039;, title=&#039;手机号为12位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;...)">login(CaseInfo{caseId=5, interfaceName='login', title='手机号为12位', requestHeader='{
+ "X-Lemonban-Media-Type"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=14, interfaceName=&#039;login&#039;, title=&#039;密码错误-过短&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">login(CaseInfo{caseId=14, interfaceName='login', title='密码错误-过短', requestHeader='{
+ "X-Lemonban-Media-Type...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=7, interfaceName=&#039;login&#039;, title=&#039;不存在的号段&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:...)">login(CaseInfo{caseId=7, interfaceName='login', title='不存在的号段', requestHeader='{
+ "X-Lemonban-Media-Type":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=4, interfaceName=&#039;login&#039;, title=&#039;手机号为10位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;...)">login(CaseInfo{caseId=4, interfaceName='login', title='手机号为10位', requestHeader='{
+ "X-Lemonban-Media-Type"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=6, interfaceName=&#039;login&#039;, title=&#039;手机号包含非数字&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">login(CaseInfo{caseId=6, interfaceName='login', title='手机号包含非数字', requestHeader='{
+ "X-Lemonban-Media-Type...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=8, interfaceName=&#039;login&#039;, title=&#039;输入未注册的手机号&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Typ...)">login(CaseInfo{caseId=8, interfaceName='login', title='输入未注册的手机号', requestHeader='{
+ "X-Lemonban-Media-Typ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=9, interfaceName=&#039;login&#039;, title=&#039;密码为空&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;l...)">login(CaseInfo{caseId=9, interfaceName='login', title='密码为空', requestHeader='{
+ "X-Lemonban-Media-Type":"l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=11, interfaceName=&#039;login&#039;, title=&#039;密码为17位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;...)">login(CaseInfo{caseId=11, interfaceName='login', title='密码为17位', requestHeader='{
+ "X-Lemonban-Media-Type"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.LoginTest" hash-for-method="login(CaseInfo{caseId=3, interfaceName=&#039;login&#039;, title=&#039;手机号为空&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;...)">login(CaseInfo{caseId=3, interfaceName='login', title='手机号为空', requestHeader='{
+ "X-Lemonban-Media-Type":"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=8, interfaceName=&#039;register&#039;, title=&#039;手机号为不存在的号段&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media...)">register(CaseInfo{caseId=8, interfaceName='register', title='手机号为不存在的号段', requestHeader='{
+ "X-Lemonban-Media...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=13, interfaceName=&#039;register&#039;, title=&#039;type输入非0、1&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Medi...)">register(CaseInfo{caseId=13, interfaceName='register', title='type输入非0、1', requestHeader='{
+ "X-Lemonban-Medi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=4, interfaceName=&#039;register&#039;, title=&#039;手机号为空&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">register(CaseInfo{caseId=4, interfaceName='register', title='手机号为空', requestHeader='{
+ "X-Lemonban-Media-Type...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=2, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，type为空，密码8位&#039;, requestHeader=&#039;{
+ &quot;X-Lem...)">register(CaseInfo{caseId=2, interfaceName='register', title='正常注册-普通用户，type为空，密码8位', requestHeader='{
+ "X-Lem...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=10, interfaceName=&#039;register&#039;, title=&#039;密码为空&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">register(CaseInfo{caseId=10, interfaceName='register', title='密码为空', requestHeader='{
+ "X-Lemonban-Media-Type...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=3, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，昵称为空，密码16位&#039;, requestHeader=&#039;{
+ &quot;X-Lemo...)">register(CaseInfo{caseId=3, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=6, interfaceName=&#039;register&#039;, title=&#039;手机号为12位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Ty...)">register(CaseInfo{caseId=6, interfaceName='register', title='手机号为12位', requestHeader='{
+ "X-Lemonban-Media-Ty...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=9, interfaceName=&#039;register&#039;, title=&#039;手机号输入已注册号码&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media...)">register(CaseInfo{caseId=9, interfaceName='register', title='手机号输入已注册号码', requestHeader='{
+ "X-Lemonban-Media...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=12, interfaceName=&#039;register&#039;, title=&#039;密码为17位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Ty...)">register(CaseInfo{caseId=12, interfaceName='register', title='密码为17位', requestHeader='{
+ "X-Lemonban-Media-Ty...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=7, interfaceName=&#039;register&#039;, title=&#039;手机号包含非数字&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-T...)">register(CaseInfo{caseId=7, interfaceName='register', title='手机号包含非数字', requestHeader='{
+ "X-Lemonban-Media-T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=11, interfaceName=&#039;register&#039;, title=&#039;密码为7位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Typ...)">register(CaseInfo{caseId=11, interfaceName='register', title='密码为7位', requestHeader='{
+ "X-Lemonban-Media-Typ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=5, interfaceName=&#039;register&#039;, title=&#039;手机号为10位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Ty...)">register(CaseInfo{caseId=5, interfaceName='register', title='手机号为10位', requestHeader='{
+ "X-Lemonban-Media-Ty...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.RegisterTest" hash-for-method="register(CaseInfo{caseId=14, interfaceName=&#039;register&#039;, title=&#039;昵称超出10位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-T...)">register(CaseInfo{caseId=14, interfaceName='register', title='昵称超出10位', requestHeader='{
+ "X-Lemonban-Media-T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.GetUserInfoTest" hash-for-method="user_info(CaseInfo{caseId=1, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，昵称为空，密码16位&#039;, requestHeader=&#039;{
+ &quot;X-Lemo...)">user_info(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.GetUserInfoTest" hash-for-method="user_info(CaseInfo{caseId=2, interfaceName=&#039;login&#039;, title=&#039;正常登录&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;l...)">user_info(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-____" title="com.lemon.testcases.GetUserInfoTest" hash-for-method="user_info(CaseInfo{caseId=3, interfaceName=&#039;member_info&#039;, title=&#039;正常获取用户信息&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Medi...)">user_info(CaseInfo{caseId=3, interfaceName='member_info', title='正常获取用户信息', requestHeader='{
+ "X-Lemonban-Medi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-____ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-____" class="panel ____">
+          <div class="suite-____-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.lemon.testcases.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=1, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，昵称为空，密码16位&#039;, requestHeader=&#039;{
+ &quot;X-Lemo...)">
+                  </a> <!-- register(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "13300718363",
+  "pwd": "lemon12345678901",
+  "type":""
+}', expected='{
+    "code": 1,
+    "msg": "OK",
+    "data.reg_name":"小柠檬",
+ "data.mobile_phone":"13300718363"
+}', extractExper='null', dbAssert='{
+ "select count(*) from member where mobile_phone='13329334510'; " : 1
+}'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1] but found [0]
+	at com.lemon.common.BaseTest.assertResponse(BaseTest.java:119)
+	at com.lemon.testcases.RegisterTest.register(RegisterTest.java:50)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-____-class-failed -->
+          <div class="suite-____-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.testcases.InvestFlowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="investFlow(CaseInfo{caseId=3, interfaceName=&#039;member_info&#039;, title=&#039;正常获取用户信息&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Medi...)">
+                  </a> <!-- investFlow(CaseInfo{caseId=3, interfaceName='member_info', title='正常获取用户信息', requestHeader='{
+ "X-Lemonban-Medi...) -->
+                  <span class="method-name">investFlow</span>
+                  <span class="parameters">(CaseInfo{caseId=3, interfaceName='member_info', title='正常获取用户信息', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json",
+ "Authorization":"Bearer null"
+}', method='GET', url='/member/null/info', inputParams='{
+  "timestamp": 1627911495,
+  "sign":"ESoqldyo+aFJDGKTdoVb/EhmsTrEGrXSa+UjgKR4vOwXH1XTA3/nVmxDySbgl3rmJjSbN5rhUuoz
+jWEyUJsVVK1hRYCoX2etYQ0iP/t2jIXxnEmdQrHtZnwSE6+/lWwZvBiVQg32YexTtVoHpglMk7r+
+87bwtP3kZWxKWNvfmLA=
+"
+}', expected='null', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="investFlow(CaseInfo{caseId=2, interfaceName=&#039;login&#039;, title=&#039;正常登录&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;l...)">
+                  </a> <!-- investFlow(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"l...) -->
+                  <span class="method-name">investFlow</span>
+                  <span class="parameters">(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "null",
+  "pwd": "lemon12345678901"
+}', expected='null', extractExper='{
+  "member_id": "data.id",
+  "token": "data.token_info.token"
+}', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="investFlow(CaseInfo{caseId=1, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，昵称为空，密码16位&#039;, requestHeader=&#039;{
+ &quot;X-Lemo...)">
+                  </a> <!-- investFlow(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...) -->
+                  <span class="method-name">investFlow</span>
+                  <span class="parameters">(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "13324616068",
+  "pwd": "lemon12345678901",
+  "type":""
+}', expected='null', extractExper='{"mobile_phone":"data.mobile_phone"}', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-____-class-passed -->
+          <div class="suite-____-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.testcases.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=8, interfaceName=&#039;register&#039;, title=&#039;手机号为不存在的号段&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media...)">
+                  </a> <!-- register(CaseInfo{caseId=8, interfaceName='register', title='手机号为不存在的号段', requestHeader='{
+ "X-Lemonban-Media...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=8, interfaceName='register', title='手机号为不存在的号段', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "11015541763",
+  "pwd": "lemon123456",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "无效的手机格式"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=13, interfaceName=&#039;register&#039;, title=&#039;type输入非0、1&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Medi...)">
+                  </a> <!-- register(CaseInfo{caseId=13, interfaceName='register', title='type输入非0、1', requestHeader='{
+ "X-Lemonban-Medi...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=13, interfaceName='register', title='type输入非0、1', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "15815541766",
+  "pwd": "lemon666",
+  "type":"3",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "不支持的用户类型"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=4, interfaceName=&#039;register&#039;, title=&#039;手机号为空&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">
+                  </a> <!-- register(CaseInfo{caseId=4, interfaceName='register', title='手机号为空', requestHeader='{
+ "X-Lemonban-Media-Type...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=4, interfaceName='register', title='手机号为空', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "",
+  "pwd": "lemon666",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 1,
+  "msg": "手机号为空"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=2, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，type为空，密码8位&#039;, requestHeader=&#039;{
+ &quot;X-Lem...)">
+                  </a> <!-- register(CaseInfo{caseId=2, interfaceName='register', title='正常注册-普通用户，type为空，密码8位', requestHeader='{
+ "X-Lem...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=2, interfaceName='register', title='正常注册-普通用户，type为空，密码8位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "13337638761",
+  "pwd": "lemon666",
+  "type":"",
+  "reg_name":"tudou"
+}', expected='{
+    "code": 0,
+    "msg": "OK",
+    "data.reg_name":"tudou",
+ "data.mobile_phone":"13337638761"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=10, interfaceName=&#039;register&#039;, title=&#039;密码为空&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">
+                  </a> <!-- register(CaseInfo{caseId=10, interfaceName='register', title='密码为空', requestHeader='{
+ "X-Lemonban-Media-Type...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=10, interfaceName='register', title='密码为空', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "15815541766",
+  "pwd": "",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 1,
+  "msg": "密码为空"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=3, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，昵称为空，密码16位&#039;, requestHeader=&#039;{
+ &quot;X-Lemo...)">
+                  </a> <!-- register(CaseInfo{caseId=3, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=3, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "13328431156",
+  "pwd": "lemon12345678901",
+  "type":"1",
+  "reg_name":""
+}', expected='{
+    "code": 0,
+    "msg": "OK",
+    "data.reg_name":"",
+ "data.mobile_phone":"13328431156"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=6, interfaceName=&#039;register&#039;, title=&#039;手机号为12位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Ty...)">
+                  </a> <!-- register(CaseInfo{caseId=6, interfaceName='register', title='手机号为12位', requestHeader='{
+ "X-Lemonban-Media-Ty...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=6, interfaceName='register', title='手机号为12位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "158155417633",
+  "pwd": "lemon666",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "无效的手机格式"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=9, interfaceName=&#039;register&#039;, title=&#039;手机号输入已注册号码&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media...)">
+                  </a> <!-- register(CaseInfo{caseId=9, interfaceName='register', title='手机号输入已注册号码', requestHeader='{
+ "X-Lemonban-Media...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=9, interfaceName='register', title='手机号输入已注册号码', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "15815541764",
+  "pwd": "lemon666",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "账号已存在"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=12, interfaceName=&#039;register&#039;, title=&#039;密码为17位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Ty...)">
+                  </a> <!-- register(CaseInfo{caseId=12, interfaceName='register', title='密码为17位', requestHeader='{
+ "X-Lemonban-Media-Ty...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=12, interfaceName='register', title='密码为17位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "15815541766",
+  "pwd": "lemon123456789012",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "密码格式为8到16位"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=7, interfaceName=&#039;register&#039;, title=&#039;手机号包含非数字&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-T...)">
+                  </a> <!-- register(CaseInfo{caseId=7, interfaceName='register', title='手机号包含非数字', requestHeader='{
+ "X-Lemonban-Media-T...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=7, interfaceName='register', title='手机号包含非数字', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "1581554176a",
+  "pwd": "lemon123456",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "无效的手机格式"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=11, interfaceName=&#039;register&#039;, title=&#039;密码为7位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Typ...)">
+                  </a> <!-- register(CaseInfo{caseId=11, interfaceName='register', title='密码为7位', requestHeader='{
+ "X-Lemonban-Media-Typ...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=11, interfaceName='register', title='密码为7位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "15815541766",
+  "pwd": "lemon66",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "密码格式为8到16位"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=5, interfaceName=&#039;register&#039;, title=&#039;手机号为10位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Ty...)">
+                  </a> <!-- register(CaseInfo{caseId=5, interfaceName='register', title='手机号为10位', requestHeader='{
+ "X-Lemonban-Media-Ty...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=5, interfaceName='register', title='手机号为10位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "1581554176",
+  "pwd": "lemon666",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "无效的手机格式"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register(CaseInfo{caseId=14, interfaceName=&#039;register&#039;, title=&#039;昵称超出10位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-T...)">
+                  </a> <!-- register(CaseInfo{caseId=14, interfaceName='register', title='昵称超出10位', requestHeader='{
+ "X-Lemonban-Media-T...) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">(CaseInfo{caseId=14, interfaceName='register', title='昵称超出10位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v2",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "15815541766",
+  "pwd": "lemon666",
+  "type":"1",
+  "reg_name":"小柠檬mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "用户昵称长度超过10位"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-____-class-passed -->
+          <div class="suite-____-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=13, interfaceName=&#039;login&#039;, title=&#039;密码错误-过长&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">
+                  </a> <!-- login(CaseInfo{caseId=13, interfaceName='login', title='密码错误-过长', requestHeader='{
+ "X-Lemonban-Media-Type...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=13, interfaceName='login', title='密码错误-过长', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "15815541763",
+  "pwd": "lemon66666"
+}', expected='{
+  "code": 1001,
+  "msg": "账号信息错误"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=12, interfaceName=&#039;login&#039;, title=&#039;密码错误-不区分大小写&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-...)">
+                  </a> <!-- login(CaseInfo{caseId=12, interfaceName='login', title='密码错误-不区分大小写', requestHeader='{
+ "X-Lemonban-Media-...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=12, interfaceName='login', title='密码错误-不区分大小写', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "15815541764",
+  "pwd": "LEMON666"
+}', expected='{
+  "code": 1001,
+  "msg": "账号信息错误"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=2, interfaceName=&#039;login&#039;, title=&#039;正常登录&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;l...)">
+                  </a> <!-- login(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"l...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "13338302760",
+  "pwd": "lemon12345678901"
+}', expected='{
+    "code": 0,
+    "msg": "OK",
+ "data.leave_amount":0.0,
+ "data.mobile_phone":"13338302760"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=10, interfaceName=&#039;login&#039;, title=&#039;密码为7位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:...)">
+                  </a> <!-- login(CaseInfo{caseId=10, interfaceName='login', title='密码为7位', requestHeader='{
+ "X-Lemonban-Media-Type":...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=10, interfaceName='login', title='密码为7位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "1515815541764",
+  "pwd": "lemon666"
+}', expected='{
+  "code": 2,
+  "msg": "无效的手机格式"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=5, interfaceName=&#039;login&#039;, title=&#039;手机号为12位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;...)">
+                  </a> <!-- login(CaseInfo{caseId=5, interfaceName='login', title='手机号为12位', requestHeader='{
+ "X-Lemonban-Media-Type"...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=5, interfaceName='login', title='手机号为12位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "158155417643",
+  "pwd": "lemon666"
+}', expected='{
+  "code": 2,
+  "msg": "无效的手机格式"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=14, interfaceName=&#039;login&#039;, title=&#039;密码错误-过短&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">
+                  </a> <!-- login(CaseInfo{caseId=14, interfaceName='login', title='密码错误-过短', requestHeader='{
+ "X-Lemonban-Media-Type...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=14, interfaceName='login', title='密码错误-过短', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "15815541763",
+  "pwd": "lemon6"
+}', expected='{
+  "code": 1001,
+  "msg": "账号信息错误"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=7, interfaceName=&#039;login&#039;, title=&#039;不存在的号段&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:...)">
+                  </a> <!-- login(CaseInfo{caseId=7, interfaceName='login', title='不存在的号段', requestHeader='{
+ "X-Lemonban-Media-Type":...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=7, interfaceName='login', title='不存在的号段', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "11015541764",
+  "pwd": "lemon666"
+}', expected='{
+  "code": 2,
+  "msg": "无效的手机格式"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=4, interfaceName=&#039;login&#039;, title=&#039;手机号为10位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;...)">
+                  </a> <!-- login(CaseInfo{caseId=4, interfaceName='login', title='手机号为10位', requestHeader='{
+ "X-Lemonban-Media-Type"...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=4, interfaceName='login', title='手机号为10位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "1581554176",
+  "pwd": "lemon666",
+  "type":"1",
+  "reg_name":"mengmeng"
+}', expected='{
+  "code": 2,
+  "msg": "无效的手机格式"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=6, interfaceName=&#039;login&#039;, title=&#039;手机号包含非数字&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type...)">
+                  </a> <!-- login(CaseInfo{caseId=6, interfaceName='login', title='手机号包含非数字', requestHeader='{
+ "X-Lemonban-Media-Type...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=6, interfaceName='login', title='手机号包含非数字', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "1581554176a",
+  "pwd": "lemon666"
+}', expected='{
+  "code": 2,
+  "msg": "无效的手机格式"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=8, interfaceName=&#039;login&#039;, title=&#039;输入未注册的手机号&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Typ...)">
+                  </a> <!-- login(CaseInfo{caseId=8, interfaceName='login', title='输入未注册的手机号', requestHeader='{
+ "X-Lemonban-Media-Typ...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=8, interfaceName='login', title='输入未注册的手机号', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "13323231200",
+  "pwd": "lemon666"
+}', expected='{
+  "code": 1001,
+  "msg": "账号信息错误"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=9, interfaceName=&#039;login&#039;, title=&#039;密码为空&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;l...)">
+                  </a> <!-- login(CaseInfo{caseId=9, interfaceName='login', title='密码为空', requestHeader='{
+ "X-Lemonban-Media-Type":"l...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=9, interfaceName='login', title='密码为空', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "15815541764",
+  "pwd": ""
+}', expected='{
+  "code": 1,
+  "msg": "密码为空"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=11, interfaceName=&#039;login&#039;, title=&#039;密码为17位&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;...)">
+                  </a> <!-- login(CaseInfo{caseId=11, interfaceName='login', title='密码为17位', requestHeader='{
+ "X-Lemonban-Media-Type"...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=11, interfaceName='login', title='密码为17位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "15815541764",
+  "pwd": "lemon123456789012"
+}', expected='{
+  "code": 1001,
+  "msg": "账号信息错误"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(CaseInfo{caseId=3, interfaceName=&#039;login&#039;, title=&#039;手机号为空&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;...)">
+                  </a> <!-- login(CaseInfo{caseId=3, interfaceName='login', title='手机号为空', requestHeader='{
+ "X-Lemonban-Media-Type":"...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(CaseInfo{caseId=3, interfaceName='login', title='手机号为空', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "",
+  "pwd": "lemon666"
+}', expected='{
+  "code": 1,
+  "msg": "手机号码为空"
+}', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-____-class-passed -->
+          <div class="suite-____-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.testcases.GetUserInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_info(CaseInfo{caseId=1, interfaceName=&#039;register&#039;, title=&#039;正常注册-普通用户，昵称为空，密码16位&#039;, requestHeader=&#039;{
+ &quot;X-Lemo...)">
+                  </a> <!-- user_info(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...) -->
+                  <span class="method-name">user_info</span>
+                  <span class="parameters">(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/register', inputParams='{
+  "mobile_phone": "13324616068",
+  "pwd": "lemon12345678901",
+  "type":""
+}', expected='null', extractExper='{"mobile_phone":"data.mobile_phone"}', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_info(CaseInfo{caseId=2, interfaceName=&#039;login&#039;, title=&#039;正常登录&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Media-Type&quot;:&quot;l...)">
+                  </a> <!-- user_info(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"l...) -->
+                  <span class="method-name">user_info</span>
+                  <span class="parameters">(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json"
+}', method='POST', url='/member/login', inputParams='{
+  "mobile_phone": "13324616068",
+  "pwd": "lemon12345678901"
+}', expected='null', extractExper='{
+  "member_id": "data.id",
+  "token": "data.token_info.token"
+}', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_info(CaseInfo{caseId=3, interfaceName=&#039;member_info&#039;, title=&#039;正常获取用户信息&#039;, requestHeader=&#039;{
+ &quot;X-Lemonban-Medi...)">
+                  </a> <!-- user_info(CaseInfo{caseId=3, interfaceName='member_info', title='正常获取用户信息', requestHeader='{
+ "X-Lemonban-Medi...) -->
+                  <span class="method-name">user_info</span>
+                  <span class="parameters">(CaseInfo{caseId=3, interfaceName='member_info', title='正常获取用户信息', requestHeader='{
+ "X-Lemonban-Media-Type":"lemonban.v3",
+ "Content-Type":"application/json",
+ "Authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEyMzQ4MDk2OSwiZXhwIjoxNjI3OTExNzk3fQ.HrYxvmeBm84J8dhN5Y_Ce1L5KIHfCjXI-kd2lH1SE_CYaJGFap28aEh1VIjtIsnt12hkm5Z1g17gVOZymscOew"
+}', method='GET', url='/member/123480969/info', inputParams='{
+  "timestamp": 1627911495,
+  "sign":"ESoqldyo+aFJDGKTdoVb/EhmsTrEGrXSa+UjgKR4vOwXH1XTA3/nVmxDySbgl3rmJjSbN5rhUuoz
+jWEyUJsVVK1hRYCoX2etYQ0iP/t2jIXxnEmdQrHtZnwSE6+/lWwZvBiVQg32YexTtVoHpglMk7r+
+87bwtP3kZWxKWNvfmLA=
+"
+}', expected='null', extractExper='null', dbAssert='null'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-____-class-passed -->
+        </div> <!-- panel ____ -->
+        <div panel-name="test-xml-____" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\LIanXi\api_code\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;测试套件&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;测试&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.lemon.testcases.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;com.lemon.testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.lemon.testcases.GetUserInfoTest&quot;/&gt;
+      &lt;class name=&quot;com.lemon.testcases.InvestFlowTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 测试 --&gt;
+&lt;/suite&gt; &lt;!-- 测试套件 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-____" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 测试套件</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">测试 (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-____" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 测试套件</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-____" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 测试套件</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_____');
+function tableData_____() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'register')
+data.setCell(0, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(0, 3, 4153);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'register')
+data.setCell(1, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(1, 3, 346);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'register')
+data.setCell(2, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(2, 3, 338);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'user_info')
+data.setCell(3, 2, 'com.lemon.testcases.GetUserInfoTest')
+data.setCell(3, 3, 302);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(4, 3, 238);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'register')
+data.setCell(5, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(5, 3, 192);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'investFlow')
+data.setCell(6, 2, 'com.lemon.testcases.InvestFlowTest')
+data.setCell(6, 3, 188);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'register')
+data.setCell(7, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(7, 3, 185);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'register')
+data.setCell(8, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(8, 3, 179);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'login')
+data.setCell(9, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(9, 3, 177);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'register')
+data.setCell(10, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(10, 3, 171);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'user_info')
+data.setCell(11, 2, 'com.lemon.testcases.GetUserInfoTest')
+data.setCell(11, 3, 169);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'login')
+data.setCell(12, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(12, 3, 169);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'login')
+data.setCell(13, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(13, 3, 167);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'login')
+data.setCell(14, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(14, 3, 166);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'register')
+data.setCell(15, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(15, 3, 160);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'register')
+data.setCell(16, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(16, 3, 160);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'login')
+data.setCell(17, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(17, 3, 159);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'register')
+data.setCell(18, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(18, 3, 156);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'login')
+data.setCell(19, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(19, 3, 148);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'register')
+data.setCell(20, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(20, 3, 147);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'register')
+data.setCell(21, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(21, 3, 147);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'login')
+data.setCell(22, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(22, 3, 146);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'login')
+data.setCell(23, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(23, 3, 143);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'user_info')
+data.setCell(24, 2, 'com.lemon.testcases.GetUserInfoTest')
+data.setCell(24, 3, 142);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'login')
+data.setCell(25, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(25, 3, 140);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'investFlow')
+data.setCell(26, 2, 'com.lemon.testcases.InvestFlowTest')
+data.setCell(26, 3, 139);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'register')
+data.setCell(27, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(27, 3, 132);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'login')
+data.setCell(28, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(28, 3, 132);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'login')
+data.setCell(29, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(29, 3, 131);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'register')
+data.setCell(30, 2, 'com.lemon.testcases.RegisterTest')
+data.setCell(30, 3, 124);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'login')
+data.setCell(31, 2, 'com.lemon.testcases.LoginTest')
+data.setCell(31, 3, 108);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'investFlow')
+data.setCell(32, 2, 'com.lemon.testcases.InvestFlowTest')
+data.setCell(32, 3, 88);
+window.suiteTableData['____']= { tableData: data, tableDiv: 'times-div-____'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-____">
+              </div> <!-- times-div-____ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-____" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 测试套件</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-____" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.lemon.testcases.InvestFlowTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.lemon.testcases.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.lemon.testcases.GetUserInfoTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-____" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.testcases.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1776 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">register(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...)</span>
+                <span class="method-start">4561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=2, interfaceName='register', title='正常注册-普通用户，type为空，密码8位', requestHeader='{
+ "X-Lem...)</span>
+                <span class="method-start">8885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=3, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...)</span>
+                <span class="method-start">9241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=4, interfaceName='register', title='手机号为空', requestHeader='{
+ "X-Lemonban-Media-Type...)</span>
+                <span class="method-start">9585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=5, interfaceName='register', title='手机号为10位', requestHeader='{
+ "X-Lemonban-Media-Ty...)</span>
+                <span class="method-start">9790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=6, interfaceName='register', title='手机号为12位', requestHeader='{
+ "X-Lemonban-Media-Ty...)</span>
+                <span class="method-start">9979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=7, interfaceName='register', title='手机号包含非数字', requestHeader='{
+ "X-Lemonban-Media-T...)</span>
+                <span class="method-start">10182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=8, interfaceName='register', title='手机号为不存在的号段', requestHeader='{
+ "X-Lemonban-Media...)</span>
+                <span class="method-start">10361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=9, interfaceName='register', title='手机号输入已注册号码', requestHeader='{
+ "X-Lemonban-Media...)</span>
+                <span class="method-start">10511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=10, interfaceName='register', title='密码为空', requestHeader='{
+ "X-Lemonban-Media-Type...)</span>
+                <span class="method-start">10692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=11, interfaceName='register', title='密码为7位', requestHeader='{
+ "X-Lemonban-Media-Typ...)</span>
+                <span class="method-start">10855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=12, interfaceName='register', title='密码为17位', requestHeader='{
+ "X-Lemonban-Media-Ty...)</span>
+                <span class="method-start">11029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=13, interfaceName='register', title='type输入非0、1', requestHeader='{
+ "X-Lemonban-Medi...)</span>
+                <span class="method-start">11178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register(CaseInfo{caseId=14, interfaceName='register', title='昵称超出10位', requestHeader='{
+ "X-Lemonban-Media-T...)</span>
+                <span class="method-start">11312 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">11456 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"l...)</span>
+                <span class="method-start">12008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=3, interfaceName='login', title='手机号为空', requestHeader='{
+ "X-Lemonban-Media-Type":"...)</span>
+                <span class="method-start">12248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=4, interfaceName='login', title='手机号为10位', requestHeader='{
+ "X-Lemonban-Media-Type"...)</span>
+                <span class="method-start">12394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=5, interfaceName='login', title='手机号为12位', requestHeader='{
+ "X-Lemonban-Media-Type"...)</span>
+                <span class="method-start">12540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=6, interfaceName='login', title='手机号包含非数字', requestHeader='{
+ "X-Lemonban-Media-Type...)</span>
+                <span class="method-start">12689 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=7, interfaceName='login', title='不存在的号段', requestHeader='{
+ "X-Lemonban-Media-Type":...)</span>
+                <span class="method-start">12823 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=8, interfaceName='login', title='输入未注册的手机号', requestHeader='{
+ "X-Lemonban-Media-Typ...)</span>
+                <span class="method-start">12957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=9, interfaceName='login', title='密码为空', requestHeader='{
+ "X-Lemonban-Media-Type":"l...)</span>
+                <span class="method-start">13129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=10, interfaceName='login', title='密码为7位', requestHeader='{
+ "X-Lemonban-Media-Type":...)</span>
+                <span class="method-start">13281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=11, interfaceName='login', title='密码为17位', requestHeader='{
+ "X-Lemonban-Media-Type"...)</span>
+                <span class="method-start">13393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=12, interfaceName='login', title='密码错误-不区分大小写', requestHeader='{
+ "X-Lemonban-Media-...)</span>
+                <span class="method-start">13574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=13, interfaceName='login', title='密码错误-过长', requestHeader='{
+ "X-Lemonban-Media-Type...)</span>
+                <span class="method-start">13746 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(CaseInfo{caseId=14, interfaceName='login', title='密码错误-过短', requestHeader='{
+ "X-Lemonban-Media-Type...)</span>
+                <span class="method-start">13917 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.testcases.GetUserInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14078 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">user_info(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...)</span>
+                <span class="method-start">14432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_info(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"l...)</span>
+                <span class="method-start">14577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_info(CaseInfo{caseId=3, interfaceName='member_info', title='正常获取用户信息', requestHeader='{
+ "X-Lemonban-Medi...)</span>
+                <span class="method-start">14749 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.testcases.InvestFlowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">15060 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">investFlow(CaseInfo{caseId=1, interfaceName='register', title='正常注册-普通用户，昵称为空，密码16位', requestHeader='{
+ "X-Lemo...)</span>
+                <span class="method-start">15091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">investFlow(CaseInfo{caseId=2, interfaceName='login', title='正常登录', requestHeader='{
+ "X-Lemonban-Media-Type":"l...)</span>
+                <span class="method-start">15281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">investFlow(CaseInfo{caseId=3, interfaceName='member_info', title='正常获取用户信息', requestHeader='{
+ "X-Lemonban-Medi...)</span>
+                <span class="method-start">15422 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

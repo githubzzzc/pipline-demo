@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [测试套件]">
+  <test thread-count="5" verbose="0" name="测试(failed)">
+    <classes>
+      <class name="com.lemon.testcases.RegisterTest">
+        <methods>
+          <include name="register" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.lemon.testcases.RegisterTest -->
+    </classes>
+  </test> <!-- 测试(failed) -->
+</suite> <!-- Failed suite [测试套件] -->

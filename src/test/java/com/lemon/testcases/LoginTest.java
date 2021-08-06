@@ -32,7 +32,7 @@ public class LoginTest extends BaseTest {
         //发起接口请求，注册一个用户
         Response res = request(registerInfo);
         /*String mobilephone = res.jsonPath().get("data.mobile_phone");
-        //将手机号码保存至环境变量
+        //将手机号码保存至环境变量;
         Environment.envMap.put("mobile_phone",mobilephone);*/
         extractToEnvironment(res,registerInfo);
         //测试数据生成

@@ -58,8 +58,4 @@ public class RegisterTest extends BaseTest {
         List<CaseInfo> listDatas = ExcelUtil.readExcelSheetAllDatas(1);
         return listDatas.toArray();
     }
-
-
-
-
 }
